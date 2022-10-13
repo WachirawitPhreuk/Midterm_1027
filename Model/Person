@@ -1,0 +1,44 @@
+public class Person {
+    private string title;
+    private string firstName;
+    private string lastName;
+    private int age;
+    private string allergic;
+    private string religion;
+
+    
+    public Person(string title,
+    string firstName, string lastName,
+    int age, string allergic, string religion) {
+        this.title = title;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.allergic =  allergic;
+        this.religion = religion;
+    }
+
+    public string GetTitle(string title) {
+        return this.title;
+    }
+    
+    public string GetFirstName(string firstName) {
+        return this.firstName;
+    }
+
+    public string GetLastName(string lastName) {
+        return this.lastName;
+    }
+
+    public int GetAge(int age) {
+        return this.age;
+    }
+
+    public string GetAllergic(string allergic) {
+        return this.allergic;
+    }
+
+    public string GetReligion(string religion) {
+        return this.religion;
+    }
+}

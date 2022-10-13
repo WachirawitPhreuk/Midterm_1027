@@ -1,0 +1,9 @@
+public class HighSchoolStudent: Person {
+    private string school;
+
+    public HighSchoolStudent(string title, string firstName, string lastName,
+    int age, string allergic, string religion, string school): base(title, firstName, lastName, 
+    age, allergic, religion) {
+        this.school = school;
+    }
+}
